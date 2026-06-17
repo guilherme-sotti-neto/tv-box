@@ -6,7 +6,7 @@
 
 ## PROCEDIMENTO OPERACIONAL PADRÃO 
 
-### Assunto: Instalação de Imagem Android (TV Box RPC) e Configuração do Mural Digital AbleSign via APK
+### Assunto: Instalação de Imagem Android (TV Box) e Configuração do Mural Digital AbleSign via APK
 
 ### 1. OBJETIVO
 
