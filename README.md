@@ -18,20 +18,20 @@ Descrever as etapas para a substituição do sistema operacional de fábrica das
 
 #### 1.1 Pré-requisitos
 
-* Cartão Micro SD (Mínimo de 4GB).
-* Computador para gravação da imagem.
-* Software de gravação de imagens (Recomendado: **balenaEtcher**, Rufus ou Win32 Disk Imager).
-* Imagem do **Utilitário Multitool** (arquivo `[multitool.img.xz](https://drive.google.com/file/d/1WSdFRLrBlIBq5H8GJqeBilelnq-wJyTK/view?usp=drive_link)`).
-* Imagem Android otimizada ([EducaBox](https://github.com/educabox/educabox)) correspondente ao seu modelo de TV Box (arquivos compactados disponibilizados no repositório).
+1. Cartão Micro SD (Mínimo de 4GB).
+2. Computador para gravação da imagem.
+3. Software de gravação de imagens (Recomendado: **balenaEtcher**, Rufus ou Win32 Disk Imager).
+4. Imagem do **Utilitário Multitool** (arquivo `[multitool.img.xz](https://drive.google.com/file/d/1WSdFRLrBlIBq5H8GJqeBilelnq-wJyTK/view?usp=drive_link)`).
+5. Imagem Android otimizada ([EducaBox](https://github.com/educabox/educabox)) correspondente ao seu modelo de TV Box (arquivos compactados disponibilizados no repositório).
 
 #### 1.2 Download e Instalação do balenaEtcher (No Computador)
 O balenaEtcher é o software homologado para gravar a imagem do sistema no cartão SD de forma segura, evitando corrupção de dados.
-*Em seu computador, abra o navegador e acesse o site oficial: [https://etcher.balena.io/](https://etcher.balena.io/)
-*Clique no botão verde Download Etcher.
-*A página rolará até a lista de downloads. Selecione a versão correspondente ao seu sistema operacional (Windows, macOS ou Linux). Nota: Para usuários Windows, recomenda-se a versão "Installer" (Instalador).
-*Aguarde a conclusão do download e execute o arquivo baixado (ex: balenaEtcher-Setup.exe).
-*Na janela de instalação, clique em Concordo (I Agree) para aceitar os termos de licença.
-*A instalação é rápida e silenciosa. Ao finalizar, o atalho será criado na área de trabalho e o balenaEtcher será aberto automaticamente, pronto para uso.
+1. Em seu computador, abra o navegador e acesse o site oficial: [https://etcher.balena.io/](https://etcher.balena.io/)
+2. Clique no botão verde Download Etcher.
+3. A página rolará até a lista de downloads. Selecione a versão correspondente ao seu sistema operacional (Windows, macOS ou Linux). Nota: Para usuários Windows, recomenda-se a versão "Installer" (Instalador).
+4. Aguarde a conclusão do download e execute o arquivo baixado (ex: balenaEtcher-Setup.exe).
+5. Na janela de instalação, clique em Concordo (I Agree) para aceitar os termos de licença.
+6. A instalação é rápida e silenciosa. Ao finalizar, o atalho será criado na área de trabalho e o balenaEtcher será aberto automaticamente, pronto para uso.
 
 #### 1.3 Preparação do Cartão SD (No Computador)
 
