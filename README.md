@@ -141,3 +141,7 @@ Para instalar a configuração padronizada em um novo TV Box:
 5. O sistema listará os arquivos disponíveis na pasta `/backups`. **Selecione o seu arquivo de backup (`Mural_TVBox_Recepcao_2025_12_01.gz`)**.
 6. O Multitool gravará exatamente a mesma configuração (Android + AbleSign configurado) no novo aparelho.
 7. Após o processo, desligue, remova o SD e ligue a nova TV Box. Ela já iniciará com o sistema, conta e configurações exatamente iguais à unidade de origem.
+---
+##IMAGENS
+1. Telas
+<img width="997" height="819" alt="image" src="https://github.com/user-attachments/assets/a0d1312a-5d71-4b4f-ae76-e766e9c49353" />
