@@ -108,3 +108,36 @@ A imagem Android recém-instalada já possui aplicativos essenciais pré-instala
 2. Vá em **Playlists**, crie uma lista e adicione as mídias carregadas.
 3. Volte em **Screens**, selecione a TV Box recém-adicionada e defina a Playlist que ela deve reproduzir.
 4. **No aparelho RPC (Opcional, mas recomendado):** Utilizando o controle remoto, abra as configurações do aplicativo AbleSign na TV Box e certifique-se de que a opção *Start on Boot* (Iniciar ao ligar) está ativada. Dessa forma, caso falte energia, o mural digital voltará a funcionar automaticamente sem intervenção humana.
+
+
+Excelente adição. Criar uma imagem "clonada" (um backup do seu sistema já configurado) é a estratégia mais eficiente para realizar a implantação em escala (deployment) em múltiplos aparelhos, economizando horas de configuração manual.
+
+Abaixo, incluo a **PARTE III** do nosso POP, que detalha como realizar esse "Backup Flash" utilizando o próprio **Multitool**.
+
+---
+
+### PARTE 3: BACKUP E CLONAGEM
+
+Após configurar um TV Box (instalar o Android, conectar na rede wifi, atualizar apps, ajustar o AbleSign e definir o início automático), você pode gerar uma imagem de backup para gravar nos demais aparelhos, garantindo que todos fiquem idênticos.
+
+#### 3.1 Gerando o Backup (Clone)
+
+1. Com a TV Box já configurada desligada, insira o cartão SD contendo o utilitário **Multitool** (o mesmo utilizado na instalação inicial).
+2. Ligue a TV Box e aguarde o carregamento do menu do Multitool.
+3. No menu principal, selecione a opção **Backup flash** e pressione **Enter**.
+4. O sistema solicitará a escolha de um nome para o arquivo de backup, nomeie esse arquivo para algo como `Mural_TVBox_Recepcao_2025_12_01`. Orienta-se que seja dado um nome junto a data em que este backup foi criado, para evitar que novos aparelhos fiquem com versões obsoletas quando ocorrerem novas atualizações.
+5. O Multitool iniciará a leitura de todos os dados do sistema, aplicativos instalados e configurações do Android, salvando-os em um arquivo dentro do cartão SD na pasta `/backups`.
+6. Aguarde a conclusão. Ao finalizar, selecione **Shutdown**.
+7. Agora, o seu cartão SD está pronto para atuar como um "pendrive de clonagem".
+
+#### 3.2 Clonando a imagem em outros aparelhos
+
+Para instalar a configuração padronizada em um novo TV Box:
+
+1. Insira o cartão SD, já com o seu `Mural_TVBox_Recepcao_2025_12_01.gz` na pasta `/backups`, no novo aparelho.
+2. Ligue o novo aparelho para iniciar o **Multitool**.
+3. Siga o fluxo de **Erase flash** para limpar a memória interna do novo aparelho.
+4. Em seguida, selecione **Restore flash**.
+5. O sistema listará os arquivos disponíveis na pasta `/backups`. **Selecione o seu arquivo de backup (`Mural_TVBox_Recepcao_2025_12_01.gz`)**.
+6. O Multitool gravará exatamente a mesma configuração (Android + AbleSign configurado) no novo aparelho.
+7. Após o processo, desligue, remova o SD e ligue a nova TV Box. Ela já iniciará com o sistema, conta e configurações exatamente iguais à unidade de origem.
