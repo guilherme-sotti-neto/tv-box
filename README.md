@@ -21,7 +21,7 @@ Descrever as etapas para a substituição do sistema operacional de fábrica das
 1. Cartão Micro SD (Mínimo de 4GB).
 2. Computador para gravação da imagem.
 3. Software de gravação de imagens (Recomendado: **balenaEtcher**, Rufus ou Win32 Disk Imager).
-4. Imagem do **Utilitário Multitool** (arquivo `[multitool.img.xz](https://drive.google.com/file/d/1WSdFRLrBlIBq5H8GJqeBilelnq-wJyTK/view?usp=drive_link)`).
+4. Imagem do **Utilitário Multitool** (arquivo [multitool.img.xz](https://drive.google.com/file/d/1WSdFRLrBlIBq5H8GJqeBilelnq-wJyTK/view?usp=drive_link)).
 5. Imagem Android otimizada ([EducaBox](https://github.com/educabox/educabox)) correspondente ao seu modelo de TV Box (arquivos compactados disponibilizados no repositório).
 
 #### 1.2 Download e Instalação do balenaEtcher (No Computador)
@@ -37,7 +37,7 @@ O balenaEtcher é o software homologado para gravar a imagem do sistema no cart�
 
 1. Conecte o cartão Micro SD ao computador.
 2. Abra o software **balenaEtcher**.
-3. Selecione a imagem do utilitário `[multitool.img.xz](https://drive.google.com/file/d/1WSdFRLrBlIBq5H8GJqeBilelnq-wJyTK/view?usp=drive_link)`.
+3. Selecione a imagem do utilitário [multitool.img.xz](https://drive.google.com/file/d/1WSdFRLrBlIBq5H8GJqeBilelnq-wJyTK/view?usp=drive_link).
 4. Selecione a unidade correspondente ao seu cartão SD e clique em **Flash**.
 5. Aguarde a finalização. Remova o cartão SD e **insira-o novamente** no computador.
 6. O cartão montará uma partição visível. Acesse a pasta `/backup` dentro dessa partição.
@@ -77,7 +77,7 @@ A imagem Android recém-instalada já possui aplicativos essenciais pré-instala
 
 1. Na tela inicial do Android, conecte a TV Box RPC à rede Wi-Fi ou cabo de rede (Ethernet).
 2. Abra o navegador pré-instalado (**Chrome** ou **Opera**).
-3. Na barra de endereços, digite o site oficial: `[https://www.ablesign.tv/](https://www.ablesign.tv/)`
+3. Na barra de endereços, digite o site oficial: [https://www.ablesign.tv/](https://www.ablesign.tv/)
 4. Navegue até o menu superior e clique em **Downloads**.
 5. Role a página até encontrar a opção **Android** e clique no botão para baixar o arquivo **APK**.
 6. Aguarde o fim do download.
@@ -91,7 +91,7 @@ A imagem Android recém-instalada já possui aplicativos essenciais pré-instala
 #### 2.2 Vinculação do Dispositivo (Emparelhamento)
 
 1. Ao abrir o AbleSign na TV Box RPC, ele exibirá um **Código de Emparelhamento (Pairing Code)** de 6 dígitos em tela cheia.
-2. Vá para um computador comum e acesse o painel web: `[https://app.ablesign.tv/](https://app.ablesign.tv/)`
+2. Vá para um computador comum e acesse o painel web: [https://app.ablesign.tv/](https://app.ablesign.tv/)
 3. Faça o login com a conta de gerenciamento da sua instituição.
 4. No menu lateral esquerdo, clique em **Screens** (Telas).
 5. Clique no botão azul **Add Screen** (Adicionar Tela).
